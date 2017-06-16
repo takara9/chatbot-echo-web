@@ -1,0 +1,21 @@
+{
+  "name": "websocket-chat-app",
+  "version": "1.0.0",
+  "description": "Web Chatbot",
+  "author": "Maho Takara",
+  "license": "MIT",
+  "main": "chatman.js",
+  "scripts": {
+    "start": "node ./chatman.js"
+  },
+  "dependencies": {
+    "cfenv": "^1.0.4",
+    "cloudant": "^1.8.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.1",
+    "express-ws": "^2.0.0",
+    "fs": "0.0.1-security",
+    "uuid": "^3.0.1",
+    "watson-developer-cloud": "^2.32.1"
+  }
+}
